@@ -1,15 +1,15 @@
 %define upstream_name Linux-DVB
-%define upstream_version 1.01
+%define upstream_version 1.03
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	6
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Interface to (some parts of) the Linux DVB API
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Linux/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/Linux-DVB
+Source0:	https://cpan.metacpan.org/authors/id/M/ML/MLEHMANN/Linux-DVB-%{upstream_version}.tar.gz
 BuildRequires:	make
 BuildRequires:	perl-devel
 
